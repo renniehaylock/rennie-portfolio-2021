@@ -1,10 +1,17 @@
 export default [
   {
     title: "Huntr",
-    description: "A CRM for the job search. Huntr helps job seekers organize their job search. It’s a web application, mobile application and chrome extension.",
+    description: "A CRM for the job search. Huntr helps job seekers organize their job search. It's a web application, mobile application and chrome extension.",
     link: "https://huntr.co",
     color: "#A390FF",
     lightColor: "#D1C7FF"
+  },
+  {
+    title: "Airstrip",
+    description: "A free, privacy-first cash flow forecasting tool for SaaS startups. Model MRR, churn, expenses, and payroll across 60 months entirely in the browser.",
+    link: "https://getairstrip.com/",
+    color: "#FF9F43",
+    lightColor: "#FFCFA3"
   },
   {
     title: "Flatcade",
