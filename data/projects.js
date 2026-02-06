@@ -16,7 +16,7 @@ export default [
   {
     title: "Flatcade",
     description: "Simple arcade games using a flat ui color palette.",
-    link: "https://flatcade.co",
+    link: "https://flatcade.renniehaylock.com",
     color: "#50E3C2",
     lightColor: "#B5FFEF"
   },
