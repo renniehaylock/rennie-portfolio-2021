@@ -18,7 +18,7 @@ export function Heading({ children, large, medium, small, color }) {
     {children}
     <style jsx>{`
     .heading {
-      color: ${color || 'rgba(255,255,255,0.8)'};
+      color: ${color || 'rgba(255,255,255,0.9)'};
       font-weight: 500;
       margin: 0;
       ${ large ? "font-size: 24px; margin: 20px 0;" : ""}

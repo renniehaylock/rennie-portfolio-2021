@@ -34,13 +34,14 @@ export default function Home() {
         <div>
           <Heading large>My Projects</Heading>
           <div className="grid">
-            {projects.map(({title, link, color, lightColor, description}) => {
+            {projects.map(({title, link, color, lightColor, description, bgOpacity}) => {
               return <ContentBox
                 title={title}
                 link={link}
                 color={color}
                 textColor={lightColor}
-                description={description} />
+                description={description}
+                bgOpacity={bgOpacity} />
             })}
           </div>
         </div>

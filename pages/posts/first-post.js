@@ -16,7 +16,7 @@ export default function Home() {
           My first post
         </h1>
         <Link href="/">
-          <a>Back to home</a>
+          Back to home
         </Link>
       </main>
 

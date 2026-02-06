@@ -4,8 +4,8 @@ import { Heading, Text } from './typography'
 
 export default function BlogPostRow({ title, description, date, link, color, descriptionColor }) {
   return (
-    <Link href={link}>
-      <a target="_blank" className="blog-post-row">
+    <Link href={link} target="_blank">
+      <div className="blog-post-row">
         <Heading small color={color}>
           {title}
         </Heading>
@@ -23,7 +23,7 @@ export default function BlogPostRow({ title, description, date, link, color, des
           border-top: 2px solid rgba(255,255,255,0.05);
           padding: 10px 0;
         }`}</style>
-      </a>
+      </div>
     </Link>
   )
 }

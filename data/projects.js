@@ -11,7 +11,8 @@ export default [
     description: "A free, privacy-first cash flow forecasting tool for SaaS startups. Model MRR, churn, expenses, and payroll across 60 months entirely in the browser.",
     link: "https://getairstrip.com/",
     color: "#FF9F43",
-    lightColor: "#FFCFA3"
+    lightColor: "#FFCFA3",
+    bgOpacity: 0.1
   },
   {
     title: "Flatcade",
@@ -25,6 +26,7 @@ export default [
     description: "A visually driven way to discover local bars, restaurants, and cafés.",
     link: "https://drive.google.com/file/d/0B1V5eZaQlxbWb05NN0dkMjY0VTQ/view?usp=sharing",
     color: "#FF6B6B",
-    lightColor: "#FFBDBD"
+    lightColor: "#FFBDBD",
+    bgOpacity: 0.1
   }
 ]
