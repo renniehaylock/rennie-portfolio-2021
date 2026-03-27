@@ -36,6 +36,7 @@ export default function Home() {
           <div className="grid">
             {projects.map(({title, link, color, lightColor, description, bgOpacity}) => {
               return <ContentBox
+                key={title}
                 title={title}
                 link={link}
                 color={color}
@@ -51,6 +52,7 @@ export default function Home() {
             <div className="grid">
               {blogPosts.map(({title, link, date, color, description}) => {
                 return <BlogPostRow
+                  key={title}
                   title={title}
                   description={description}
                   link={link}
@@ -65,6 +67,7 @@ export default function Home() {
           <div className="grid">
             {links.map(({title, link, date, color, lightColor, description}) => {
               return <BlogPostRow
+                key={title}
                 title={title}
                 description={description}
                 link={link}

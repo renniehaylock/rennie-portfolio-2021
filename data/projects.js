@@ -28,5 +28,13 @@ export default [
     color: "#FF6B6B",
     lightColor: "#FFBDBD",
     bgOpacity: 0.1
+  },
+  {
+    title: "Toqui",
+    description: "An app to organize soccer pools (quinielas) with friends. Predict match results, compete on leaderboards, and settle bragging rights.",
+    link: "https://toqui.app",
+    color: "#2ECC71",
+    lightColor: "#A3F5C6",
+    bgOpacity: 0.1
   }
 ]
